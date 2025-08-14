@@ -35,7 +35,7 @@
   "key": "zmfmv23auq",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelStyle": "BOLD,ITALIC",
+  "labelStyle": "BOLD",
   "labelText": "Year",
   "labelTextColor": "#000000",
   "labelTextSize": "1rem",

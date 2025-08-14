@@ -35,7 +35,7 @@
   "key": "0cb0a25cm9",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelStyle": "BOLD,ITALIC",
+  "labelStyle": "BOLD",
   "labelText": "Device Type",
   "labelTextColor": "#000000",
   "labelTextSize": "0.875rem",

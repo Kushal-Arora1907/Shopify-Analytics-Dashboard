@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 17,
+  "bottomRow": 25,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -48,7 +48,7 @@
   "text": "Make smart business decisions \nwith real-time data insights",
   "textAlign": "CENTER",
   "textColor": "#000000",
-  "topRow": 9,
+  "topRow": 10,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
