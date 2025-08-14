@@ -1,0 +1,28 @@
+{
+  "gitSyncId": "689c98c2f6bb571e837dc6da_f0c0be0c-e34d-40af-9623-c03ccd2e50a6",
+  "id": "Page1_SampleData",
+  "unpublishedCollection": {
+    "name": "SampleData",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "kpiData",
+        "value": "{\n  totalSessions: 24847,\n  totalSales: 89247,\n  conversionRate: 3.2,\n  avgOrderValue: 156,\n  sessionsChange: 12.3,\n  salesChange: 8.7,\n  conversionChange: -0.5,\n  orderValueChange: 4.1\n}"
+      },
+      {
+        "name": "salesOverTime",
+        "value": "[{\n  x: \"Jan\",\n  y: 12000\n}, {\n  x: \"Feb\",\n  y: 15000\n}, {\n  x: \"Mar\",\n  y: 18000\n}, {\n  x: \"Apr\",\n  y: 22000\n}, {\n  x: \"May\",\n  y: 25000\n}, {\n  x: \"Jun\",\n  y: 28000\n}, {\n  x: \"Jul\",\n  y: 32000\n}, {\n  x: \"Aug\",\n  y: 35000\n}]"
+      },
+      {
+        "name": "deviceData",
+        "value": "[{\n  x: \"Desktop\",\n  y: 11500\n}, {\n  x: \"Mobile\",\n  y: 10200\n}, {\n  x: \"Tablet\",\n  y: 3147\n}]"
+      },
+      {
+        "name": "countryData",
+        "value": "[{\n  x: \"United States\",\n  y: 35000\n}, {\n  x: \"Canada\",\n  y: 18000\n}, {\n  x: \"United Kingdom\",\n  y: 12000\n}, {\n  x: \"Germany\",\n  y: 8000\n}, {\n  x: \"India\",\n  y: 6000\n}]"
+      }
+    ]
+  }
+}
