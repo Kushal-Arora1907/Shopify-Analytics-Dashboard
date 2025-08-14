@@ -7,6 +7,7 @@
   "boxShadow": "0 2px 4px rgba(0,0,0,0.1)",
   "chartData": {
     "yvz7eqyuhy": {
+      "color": "#00a047",
       "data": "{{DynamicData.getSalesOverTime()}}",
       "seriesName": "Sales"
     }

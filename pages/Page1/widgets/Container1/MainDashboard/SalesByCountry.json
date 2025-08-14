@@ -7,6 +7,7 @@
   "boxShadow": "0 2px 4px rgba(0,0,0,0.1)",
   "chartData": {
     "yvz7eqyuhy": {
+      "color": "#3b82f6",
       "data": "{{DynamicData.getCountryData()}}",
       "seriesName": ""
     }
