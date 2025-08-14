@@ -52,7 +52,7 @@
   ],
   "containerStyle": "card",
   "dynamicBindingPathList": [],
-  "dynamicHeight": "FIXED",
+  "dynamicHeight": "AUTO_HEIGHT",
   "dynamicPropertyPathList": [
     {
       "key": "borderRadius"
@@ -76,6 +76,8 @@
   "mobileRightColumn": 25,
   "mobileTopRow": 1,
   "needsErrorInfo": false,
+  "originalBottomRow": 38,
+  "originalTopRow": 21,
   "parentColumnSpace": 12.25,
   "parentId": "l40vnnrjyb",
   "parentRowSpace": 10,

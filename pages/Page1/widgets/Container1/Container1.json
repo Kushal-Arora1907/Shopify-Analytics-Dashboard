@@ -4,11 +4,11 @@
   "borderColor": "#f5f5f3",
   "borderRadius": "0px",
   "borderWidth": "1",
-  "bottomRow": 131,
+  "bottomRow": 159,
   "boxShadow": "NONE",
   "children": [
     {
-      "bottomRow": 1300,
+      "bottomRow": 1580,
       "canExtend": false,
       "containerStyle": "none",
       "detachFromLayout": true,
@@ -37,7 +37,7 @@
   "containerStyle": "card",
   "displayName": "Container",
   "dynamicBindingPathList": [],
-  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "stretch",
   "hideCard": false,
@@ -59,8 +59,6 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 131,
-  "originalTopRow": 1,
   "parentColumnSpace": 4.5,
   "parentId": "0",
   "parentRowSpace": 10,
