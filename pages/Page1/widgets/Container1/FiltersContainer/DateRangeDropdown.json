@@ -52,7 +52,7 @@
   "onOptionChange": "showAlert(\"Filter changed to: \" + DateRangeDropdown.selectedOptionValue + \" days\");",
   "optionLabel": "label",
   "optionValue": "value",
-  "originalBottomRow": 7,
+  "originalBottomRow": 8,
   "originalTopRow": 1,
   "parentColumnSpace": 1.828125,
   "parentId": "2aul88kckh",
