@@ -44,6 +44,9 @@
     },
     {
       "key": "boxShadow"
+    },
+    {
+      "key": "isVisible"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -53,7 +56,7 @@
   "isCanvas": true,
   "isDeprecated": false,
   "isLoading": false,
-  "isVisible": true,
+  "isVisible": "true",
   "key": "tg5z0ooc45",
   "leftColumn": 0,
   "maxDynamicHeight": 9000,

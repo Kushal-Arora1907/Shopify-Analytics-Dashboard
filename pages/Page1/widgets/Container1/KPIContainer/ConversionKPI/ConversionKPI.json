@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "8px",
   "borderWidth": "2",
-  "bottomRow": 42,
+  "bottomRow": 38,
   "boxShadow": "0 2px 4px rgba(0,0,0,0.1)",
   "children": [
     {
@@ -85,7 +85,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 27,
   "shouldScrollContents": true,
-  "topRow": 25,
+  "topRow": 21,
   "type": "CONTAINER_WIDGET",
   "version": 1,
   "widgetId": "bko5y38v1b",
