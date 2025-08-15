@@ -34,7 +34,7 @@
   "isVisible": true,
   "key": "zmfmv23auq",
   "labelAlignment": "left",
-  "labelPosition": "Top",
+  "labelPosition": "Auto",
   "labelStyle": "BOLD",
   "labelText": "Date Range",
   "labelTextColor": "#000000",
