@@ -34,7 +34,7 @@
   "isVisible": true,
   "key": "0cb0a25cm9",
   "labelAlignment": "left",
-  "labelPosition": "Auto",
+  "labelPosition": "Top",
   "labelStyle": "BOLD",
   "labelText": "Country",
   "labelTextColor": "#000000",
