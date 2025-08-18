@@ -1,7 +1,0 @@
-SELECT 
-    DATE_FORMAT(date, '%Y-%m') as month,
-    SUM(sales) as total_sales
-FROM sales_table
-WHERE YEAR(date) = {{YearDropdown.selectedOptionValue}}
-GROUP BY DATE_FORMAT(date, '%Y-%m')
-ORDER BY month

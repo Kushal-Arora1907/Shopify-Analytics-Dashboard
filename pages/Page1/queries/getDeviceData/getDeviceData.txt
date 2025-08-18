@@ -1,6 +1,0 @@
-SELECT 
-    device_type,
-    COUNT(*) as sessions
-FROM sessions_table
-WHERE date >= '{{moment().subtract(DateRangeDropdown.selectedOptionValue, 'days').format('YYYY-MM-DD')}}'
-GROUP BY device_type

@@ -1,0 +1,67 @@
+{
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 78,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "defaultModel": "{\n  \"tips\": [\n    \"Pass data to this widget in the default model field\",\n    \"Access data in the javascript file using the appsmith.model variable\",\n    \"Create events in the widget and trigger them in the javascript file using appsmith.triggerEvent('eventName')\",\n    \"Access data in CSS as var(--appsmith-model-{property-name})\"\n  ]\n}",
+  "dynamicBindingPathList": [
+    {
+      "key": "theme"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onResetClick"
+    }
+  ],
+  "events": [
+    "onResetClick"
+  ],
+  "isCanvas": false,
+  "isLoading": false,
+  "isSearchWildcard": true,
+  "isVisible": true,
+  "key": "gl2zejlxqj",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 96,
+  "mobileLeftColumn": 18,
+  "mobileRightColumn": 41,
+  "mobileTopRow": 66,
+  "needsErrorInfo": false,
+  "onResetClick": "{{showAlert('Successfully reset!!', '');}}",
+  "originalBottomRow": 101,
+  "originalTopRow": 65,
+  "parentColumnSpace": 14.5625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "shouldScrollContents": true,
+  "srcDoc": {
+    "css": ".filter-container {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 15px;\n  background: #f5f5f3;\n  padding: 15px;\n  border-radius: 12px;\n  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);\n}\n\n.filter-box {\n  display: flex;\n  flex-direction: column;\n  gap: 5px;\n}\n\nlabel {\n  font-size: 14px;\n  font-weight: bold;\n  color: #333;\n}\n\nselect, input[type=date] {\n  padding: 6px;\n  border-radius: 6px;\n  border: 1px solid #ccc;\n  min-width: 140px;\n}\n\nbutton {\n  padding: 8px 14px;\n  border: none;\n  background: #36A2EB;\n  color: white;\n  border-radius: 6px;\n  cursor: pointer;\n  align-self: flex-end;\n  transition: background 0.2s;\n}\n\nbutton:hover {\n  background: #1d8fd6;\n}",
+    "html": "<div class=\"filter-container\">\n  <div class=\"filter-box\">\n    <label for=\"dateRange\">Date Range</label>\n    <input type=\"date\" id=\"startDate\">\n    <input type=\"date\" id=\"endDate\">\n  </div>\n\n  <div class=\"filter-box\">\n    <label for=\"device\">Device Type</label>\n    <select id=\"device\">\n      <option value=\"all\">All</option>\n      <option value=\"mobile\">Mobile</option>\n      <option value=\"desktop\">Desktop</option>\n      <option value=\"tablet\">Tablet</option>\n      <option value=\"other\">Other</option>\n    </select>\n  </div>\n\n  <div class=\"filter-box\">\n    <label for=\"country\">Country</label>\n    <select id=\"country\">\n      <option value=\"all\">All</option>\n      <option value=\"us\">United States</option>\n      <option value=\"ca\">Canada</option>\n      <option value=\"uk\">United Kingdom</option>\n      <option value=\"fr\">France</option>\n      <option value=\"mx\">Mexico</option>\n    </select>\n  </div>\n\n  <div class=\"filter-box\">\n    <label for=\"product\">Product</label>\n    <select id=\"product\">\n      <option value=\"all\">All</option>\n      <option value=\"woolcap\">Wool Cap</option>\n      <option value=\"crewneck\">Crewneck</option>\n      <option value=\"blouse\">Blouse</option>\n      <option value=\"tshirt\">T-shirt</option>\n      <option value=\"longsleeve\">Long Sleeve</option>\n    </select>\n  </div>\n\n  <button id=\"applyFilters\">Apply Filters</button>\n</div>\n",
+    "js": "document.getElementById(\"applyFilters\").addEventListener(\"click\", () => {\n  const filters = {\n    startDate: document.getElementById(\"startDate\").value,\n    endDate: document.getElementById(\"endDate\").value,\n    device: document.getElementById(\"device\").value,\n    country: document.getElementById(\"country\").value,\n    product: document.getElementById(\"product\").value\n  };\n\n  // Send filters to Appsmith store (so charts/tables can use them)\n  appsmith.store.filters = filters;\n\n  // Debug\n  console.log(\"Applied Filters:\", filters);\n});"
+  },
+  "theme": "{{appsmith.theme}}",
+  "topRow": 65,
+  "type": "CUSTOM_WIDGET",
+  "uncompiledSrcDoc": {
+    "css": ".filter-container {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 15px;\n  background: #f5f5f3;\n  padding: 15px;\n  border-radius: 12px;\n  box-shadow: 0 2px 6px rgba(0,0,0,0.1);\n}\n\n.filter-box {\n  display: flex;\n  flex-direction: column;\n  gap: 5px;\n}\n\nlabel {\n  font-size: 14px;\n  font-weight: bold;\n  color: #333;\n}\n\nselect, input[type=\"date\"] {\n  padding: 6px;\n  border-radius: 6px;\n  border: 1px solid #ccc;\n  min-width: 140px;\n}\n\nbutton {\n  padding: 8px 14px;\n  border: none;\n  background: #36A2EB;\n  color: white;\n  border-radius: 6px;\n  cursor: pointer;\n  align-self: flex-end;\n  transition: background 0.2s;\n}\n\nbutton:hover {\n  background: #1d8fd6;\n}\n",
+    "html": "<div class=\"filter-container\">\n  <div class=\"filter-box\">\n    <label for=\"dateRange\">Date Range</label>\n    <input type=\"date\" id=\"startDate\">\n    <input type=\"date\" id=\"endDate\">\n  </div>\n\n  <div class=\"filter-box\">\n    <label for=\"device\">Device Type</label>\n    <select id=\"device\">\n      <option value=\"all\">All</option>\n      <option value=\"mobile\">Mobile</option>\n      <option value=\"desktop\">Desktop</option>\n      <option value=\"tablet\">Tablet</option>\n      <option value=\"other\">Other</option>\n    </select>\n  </div>\n\n  <div class=\"filter-box\">\n    <label for=\"country\">Country</label>\n    <select id=\"country\">\n      <option value=\"all\">All</option>\n      <option value=\"us\">United States</option>\n      <option value=\"ca\">Canada</option>\n      <option value=\"uk\">United Kingdom</option>\n      <option value=\"fr\">France</option>\n      <option value=\"mx\">Mexico</option>\n    </select>\n  </div>\n\n  <div class=\"filter-box\">\n    <label for=\"product\">Product</label>\n    <select id=\"product\">\n      <option value=\"all\">All</option>\n      <option value=\"woolcap\">Wool Cap</option>\n      <option value=\"crewneck\">Crewneck</option>\n      <option value=\"blouse\">Blouse</option>\n      <option value=\"tshirt\">T-shirt</option>\n      <option value=\"longsleeve\">Long Sleeve</option>\n    </select>\n  </div>\n\n  <button id=\"applyFilters\">Apply Filters</button>\n</div>\n",
+    "js": "document.getElementById(\"applyFilters\").addEventListener(\"click\", () => {\n  const filters = {\n    startDate: document.getElementById(\"startDate\").value,\n    endDate: document.getElementById(\"endDate\").value,\n    device: document.getElementById(\"device\").value,\n    country: document.getElementById(\"country\").value,\n    product: document.getElementById(\"product\").value\n  };\n\n  // Send filters to Appsmith store (so charts/tables can use them)\n  appsmith.store.filters = filters;\n\n  // Debug\n  console.log(\"Applied Filters:\", filters);\n});\n"
+  },
+  "version": 1,
+  "widgetId": "oubk2azdj9",
+  "widgetName": "Custom7"
+}
